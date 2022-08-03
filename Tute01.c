@@ -5,6 +5,14 @@
 #include <stdio.h>
 
 int main() {
+  	printf("1st subject mark :");
+	scanf("%f",&mark1);
+	
+	printf("2nd subject mark : ");
+	scanf("%f",&mark2);
+	
+	Avg=(mark1+mark2)/2;
+	printf("%.2f",Avg);
   
   return 0;
 }
